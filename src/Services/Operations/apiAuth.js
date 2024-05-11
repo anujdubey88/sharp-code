@@ -123,7 +123,7 @@ export function login(email, password, navigate) {
       localStorage.setItem("token", JSON.stringify(response.data.token))
       dispatch(setToken(response.token))
       navigate("/")
-      // window.location.reload();
+      window.location.reload();
     } catch (error) {
       // console.log("LOGIN API ERROR............", error)
       toast.error("Login Failed ")
