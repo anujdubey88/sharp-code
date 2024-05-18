@@ -65,7 +65,7 @@ export const team = [
   },
   {
     cover: "./images/logo/basics_of_programming.jpg",
-    name: "Mastering the Fundamentals",
+    name: "Language Fundamentals",
     details: "Unlock the fundamentals of programming with our versatile training cum internship program. Choose your preferred language - Python, C, C++, Java, or others - and embark on a journey to mastery. Progress through levels with hands-on projects and quizzes tailored to your language choice. Start your programming journey today!",
   },
   {
@@ -157,7 +157,7 @@ export const courseOutline=[
     StartDate:"5 June",
   },
   {
-    name:"Mastering the Fundamentals",
+    name:"Language Fundamentals",
     Prerequisites:"Specially designed for a beginner in computer science field.",
     Learnings:"basic structure and syntax of the programming language, Control Structures (Loops and Conditional Statements), Operators and Object-Oriented Programming (OOP), File Handling and Advanced Topics",
     Outcomes:"strong understanding of the basic syntax and structure of a programming language, A strong logic building using conditional statements and loops, Grasp fundamental object-oriented programming concepts and create simple classes and objects, Perform basic file handling operations for reading and writing data.",
