@@ -20,13 +20,12 @@
 
 .items{
   display: flex;
-  height: 33rem;
   width: 20rem;
   flex-direction: column;
   justify-content: center;
   border-radius: 3%;
   align-items: center;
-  position: relative;
+  /* position: relative; */
 }
 .commintsoon{
   padding: 10rem 0;
@@ -173,10 +172,9 @@
 
 @media screen and (max-width: 1100px){
   .team{
-    padding-top:30vh;
+    padding-top:60vh;
   }
 }
-
 
 
 /* 
