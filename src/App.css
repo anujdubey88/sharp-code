@@ -143,7 +143,10 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 3rem;
+  justify-items: center; /* Centers grid items along the row */
+  align-items: center; /* Centers grid items along the column */
 }
+
 .flex {
   display: flex;
 }

@@ -64,7 +64,7 @@ export const team = [
     details: "Unlock your potential in backend development with our training and internship. Master Python, Node.js, PHP, Express, Django through projects and quizzes. Build a standout backend project for your resume. Start your journey to becoming a skilled backend developer today!",
   },
   {
-    cover: "./images/logo/pyth.jpg",
+    cover: "./images/logo/basics_of_programming.jpg",
     name: "Mastering the Fundamentals",
     details: "Unlock the fundamentals of programming with our versatile training cum internship program. Choose your preferred language - Python, C, C++, Java, or others - and embark on a journey to mastery. Progress through levels with hands-on projects and quizzes tailored to your language choice. Start your programming journey today!",
   },
@@ -74,8 +74,8 @@ export const team = [
     details: "Immerse yourself in distinctive remote data science internships, gaining invaluable experience within the virtual workforce. Explore highly sought-after niches, including competitive and favored data analysis opportunities.",
   },
   {
-    cover: "./images/logo/data-science.jpg",
-    name: "Data Structure and Algorithm",
+    cover: "./images/logo/DSA.jpg",
+    name: "Data Structure and Algorithms",
     details: "Master efficient coding with our DSA course. Essential for developers, it covers key data structures and algorithms. Learn to solve complex problems, optimize code, and build high-performance applications. Enroll now to enhance your skills and career.",
   },
 ]
@@ -127,7 +127,7 @@ export const courseOutline=[
   {
     name:"Machine-learning",
     Prerequisites:"Basic Python Programming, Understanding of algebra, calculus, and statistics, Basic knowledge of libraries like NumPy and Pandas.",
-    Learnings:" numpy, pandas, matplotlib,seaborn scikit learn,Supervised learning algorithms,Unsupervised learning algorithms",
+    Learnings:" numpy, pandas, matplotlib, seaborn scikit learn, Supervised learning algorithms, Unsupervised learning algorithms",
     Outcomes:"Proficiency in Data Handling, Skill in Data Visualization, Understanding of Supervised and Unsupervised Learning, Preparation for Advanced Topics like deep learning and natural language processing",
     Duration:"4 Weeks",
     StartDate:"5 June",
@@ -135,7 +135,7 @@ export const courseOutline=[
   {
     name:"Data-science",
     Prerequisites:"Basic understanding of Python and libraries - Pandas, Numpy, Matplotlib, Scikit-Learn",
-    Learnings:"Data Cleaning, Data manipulation, Data analysis, Exploratory data analysis(univariate, bi variate , multivariate), Model Building, Feature extraction, Hyperparameter tuning, Flask, Model Deployment, AWSEC2",
+    Learnings:"Data Cleaning, Data manipulation, Data analysis, Exploratory data analysis(univariate, bivariate , multivariate), Model Building, Feature extraction, Hyperparameter tuning, Flask, Model Deployment, AWS EC2",
     Outcomes:" Proficiency in Data Cleaning and Manipulation, Strong Data Analysis Skills, Model Building and Tuning, Web Development with Flask, Experience in Model Deployment",
     Duration:"4 Weeks",
     StartDate:"5 June",
@@ -152,7 +152,7 @@ export const courseOutline=[
     name:"Fullstack-development",
     Prerequisites:"Programming Knowledge, Basic Web Development, Computing Essentials",
     Learnings:" Intro to concepts, Frontend Development, Backend development, Database Management, Real-world Projects",
-    Outcomes:" Build full Stack Applications, Create Dynamic Frontend, Develp Robust Backends, Manage Database, Integrate Frontend and Backend, Work on Real-World Projects, Troubleshoot and Optimize",
+    Outcomes:" Build full Stack Applications, Create Dynamic Frontend, Development Robust Backends, Manage Database, Integrate Frontend and Backend, Work on Real-World Projects, Troubleshoot and Optimize",
     Duration:"4 Weeks",
     StartDate:"5 June",
   },
@@ -161,6 +161,14 @@ export const courseOutline=[
     Prerequisites:"Specially designed for a beginner in computer science field.",
     Learnings:"basic structure and syntax of the programming language, Control Structures (Loops and Conditional Statements), Operators and Object-Oriented Programming (OOP), File Handling and Advanced Topics",
     Outcomes:"strong understanding of the basic syntax and structure of a programming language, A strong logic building using conditional statements and loops, Grasp fundamental object-oriented programming concepts and create simple classes and objects, Perform basic file handling operations for reading and writing data.",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Data Structure and Algorithms",
+    Prerequisites:"Basic syntax knowledge of any programming language, Beginner oriented course",
+    Learnings:"basics of data structures and algorithms with time and space complexity, Implementation and applications of basic data structures like array, stack, queue, linked lists, trees and graphs, Searching and Sorting techniques with hash tables and heaps",
+    Outcomes:"Have a solid understanding of the basics of data structures and algorithms, A strong logic building, creating a firm base for any competitive coding test, Use advanced data structures like hash tables and heaps.",
     Duration:"4 Weeks",
     StartDate:"5 June",
   },
