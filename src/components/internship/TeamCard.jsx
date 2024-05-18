@@ -19,13 +19,16 @@ const TeamCard = () => {
             <div className="buttonprice">
               <span className="price">₹999</span>
               {/* Pass course details as URL parameters */}
-              <Link to={`/registration?courseName=${val.name}&courseDescription=${val.details}&courseDuration=${val.duration}&courseDetails=${val.details}&coursePrice=${val.price}&courseStartingDate=${val.startingDate}`}>
+              <Link to={`/registration?courseName=${val.name}`}>
                 <button>Apply</button>
               </Link>
             </div>
           </div>
         </div>
       ))}
+      <div className="items commintsoon shadow flip-box-inner">
+        <h1>More Courses Coming Soon</h1>
+      </div>
     </>
   );
 };

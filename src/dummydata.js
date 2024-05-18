@@ -36,12 +36,12 @@ export const team = [
   {
     cover: "./images/logo/front-end.jpg",
     name: "Frontend-development",
-    details: "Unlock your potential in frontend development with our comprehensive training cum internship program. Master HTML, CSS, JavaScript, and React through level-based training and quizzes. Build your portfolio with a hands-on project, ready to showcase on your resume and social media platforms. Start your journey to becoming a skilled developer today!",
+    details: "Unlock your potential with our comprehensive frontend development training and internship. Master HTML, CSS, JavaScript, React through training and quizzes. Build a portfolio with a hands-on project, ready to showcase on your resume and social media. Start your journey to becoming a skilled developer today!",
   },
   {
     cover: "./images/logo/data-analysis.jpg",
     name: "Data-analysis",
-    details: "Embark on a transformative journey in data analysis with our comprehensive training cum internship program. Learn SQL, Tableau, Power BI, and other essential tools for data visualization and analysis. Dive into hands-on projects, equipping you to tackle real-world data challenges and enhance your resume and online presence. Elevate your analytical skills and career prospects today!",
+    details: "Embark on a journey in data analysis with our training and internship. Learn SQL, Tableau, Power BI for data visualization. Tackle real-world data challenges through hands-on projects. Enhance your resume, online presence, and elevate your career prospects today!",
   },
   {
     cover: "./images/logo/machine-learning.jpg",
@@ -56,12 +56,12 @@ export const team = [
   {
     cover: "./images/logo/android.jpg",
     name: "Android-development",
-    details: "Unlock your potential in Android development with our dynamic training cum internship program. Dive deep into Flutter and Dart, along with Android Studio, through level-based training and quizzes. Showcase your skills with a polished Android project, perfect for your resume and professional profiles. Embark on your journey to becoming a proficient Android developer today!",
+    details: "Unlock your potential in Android development with our training and internship. Learn Flutter, Dart, and Android Studio. Showcase your skills with a polished Android project, perfect for your resume. Start your journey to becoming a proficient Android developer today!",
   },
   {
     cover: "./images/logo/back-end.jpg",
     name: "Backend-development",
-    details: "Unlock your potential in backend development with our comprehensive training cum internship program. Master essential languages like Python, Node.js, or PHP, along with frameworks like Express or Django. Progress through levels with hands-on projects and quizzes. Build a standout backend project for your resume and professional profiles. Start your journey to becoming a skilled backend developer today!",
+    details: "Unlock your potential in backend development with our training and internship. Master Python, Node.js, PHP, Express, Django through projects and quizzes. Build a standout backend project for your resume. Start your journey to becoming a skilled backend developer today!",
   },
   {
     cover: "./images/logo/pyth.jpg",
@@ -72,6 +72,11 @@ export const team = [
     cover: "./images/logo/data-science.jpg",
     name: "Data-science",
     details: "Immerse yourself in distinctive remote data science internships, gaining invaluable experience within the virtual workforce. Explore highly sought-after niches, including competitive and favored data analysis opportunities.",
+  },
+  {
+    cover: "./images/logo/data-science.jpg",
+    name: "Data Structure and Algorithm",
+    details: "Master efficient coding with our DSA course. Essential for developers, it covers key data structures and algorithms. Learn to solve complex problems, optimize code, and build high-performance applications. Enroll now to enhance your skills and career.",
   },
 ]
 
@@ -102,4 +107,69 @@ export const faq = [
   },
 ]
 
-
+export const courseOutline=[
+  {
+    name:"Android-development",
+    Prerequisites:"Basic programming knowledge, Familiarity with OOPs, Experience with Git",
+    Learnings:"Introduction to Flutter and Dart, Object-Oriented Programming in Dart, Common Widgets and Cards Knowledge, UI/UX Designing, State Management and Navigation, Firebase CLI and SDK Setup",
+    Outcomes:"Proficiency in Flutter and Dart, Strong Understanding of OOP Concepts, UI/UX Design Skills, State Management and Navigation Expertise, Integration of Firebase Services, Preparedness for Android Development Projects",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Data-analysis",
+    Prerequisites:"Basic programming knowledge, Familiarity with OOPs, Experience with Git",
+    Learnings:"Introduction to Data Analysis, SQL and Excel for Data Analysis, Data Visualization with Power BI and Tableau, Optional Python for Data Analysis, Real-world Data Analysis Projects",
+    Outcomes:"Data Analysis Proficiency, Advanced SQL and Excel Skills, Effective Data Visualization, Python for Data Analysis, Practical Experience",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Machine-learning",
+    Prerequisites:"Basic Python Programming, Understanding of algebra, calculus, and statistics, Basic knowledge of libraries like NumPy and Pandas.",
+    Learnings:" numpy, pandas, matplotlib,seaborn scikit learn,Supervised learning algorithms,Unsupervised learning algorithms",
+    Outcomes:"Proficiency in Data Handling, Skill in Data Visualization, Understanding of Supervised and Unsupervised Learning, Preparation for Advanced Topics like deep learning and natural language processing",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Data-science",
+    Prerequisites:"Basic understanding of Python and libraries - Pandas, Numpy, Matplotlib, Scikit-Learn",
+    Learnings:"Data Cleaning, Data manipulation, Data analysis, Exploratory data analysis(univariate, bi variate , multivariate), Model Building, Feature extraction, Hyperparameter tuning, Flask, Model Deployment, AWSEC2",
+    Outcomes:" Proficiency in Data Cleaning and Manipulation, Strong Data Analysis Skills, Model Building and Tuning, Web Development with Flask, Experience in Model Deployment",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Backend-development",
+    Prerequisites:"Fundamental Web Development, Basic Programming Knowledge, Database Basics",
+    Learnings:" Introduction and Web Servers, Programming Languages and Frameworks,Version Control and Web Security, Containerization, Testing, and Deployment Real-world Projects",
+    Outcomes:"Design and Implement Backend Systems, Manage Web Servers, Use Version Control Systems, Ensure Web Security, Deploy Applications, Work on Real-world Projects, Troubleshoot and Optimize",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Fullstack-development",
+    Prerequisites:"Programming Knowledge, Basic Web Development, Computing Essentials",
+    Learnings:" Intro to concepts, Frontend Development, Backend development, Database Management, Real-world Projects",
+    Outcomes:" Build full Stack Applications, Create Dynamic Frontend, Develp Robust Backends, Manage Database, Integrate Frontend and Backend, Work on Real-World Projects, Troubleshoot and Optimize",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Mastering the Fundamentals",
+    Prerequisites:"Specially designed for a beginner in computer science field.",
+    Learnings:"basic structure and syntax of the programming language, Control Structures (Loops and Conditional Statements), Operators and Object-Oriented Programming (OOP), File Handling and Advanced Topics",
+    Outcomes:"strong understanding of the basic syntax and structure of a programming language, A strong logic building using conditional statements and loops, Grasp fundamental object-oriented programming concepts and create simple classes and objects, Perform basic file handling operations for reading and writing data.",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+  {
+    name:"Frontend-development",
+    Prerequisites:"Basic Computer Skills, Understanding of the Internet and Browsers, Basic Programming Knowledge",
+    Learnings:"Basics of Frontend Development, HTML, CSS, Core & Advanced Javascript, Frondend frameworks",
+    Outcomes:"Technical Proficiency, Project Experience, Job Readiness, Problem-solving and Debugging Skills, Continued Learning",
+    Duration:"4 Weeks",
+    StartDate:"5 June",
+  },
+]

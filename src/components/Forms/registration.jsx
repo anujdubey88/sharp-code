@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { setSignupData } from "../../slices/authSlice";
 import { signUp } from "../../Services/Operations/apiAuth";
 import "./login.css"; // Changed CSS file name to SubmissionForm.css
+import { courseOutline } from "../../dummydata";
 
 export default function SubmissionForm() {
   const navigate = useNavigate();
@@ -89,17 +90,24 @@ export default function SubmissionForm() {
     <div className="submission-login">
       <div className="submission-login__container">
         <div className="submission-course-details">
-          <h2>Course Details</h2>
-          <h1>Coming Soon.....</h1>
-          {/* <p><span> Course Name:</span> {courseDetails.courseName}</p>
-          <p><span> Course Description:</span> {courseDetails.courseDescription}</p>
-          <p><span> Course Duration:</span> {courseDetails.courseDuration}</p>
-          <p><span> Course Details:</span> {courseDetails.courseDetails}</p>
-          <p><span> Course Price:</span> {courseDetails.coursePrice}</p>
-          <p><span> Course Starting Date:</span> {courseDetails.courseStartingDate}</p> */}
+          <h3>{courseDetails.courseName}</h3>
+          <div className="couse-details">
+          {courseOutline.map((val, index) => (
+            val.name === courseDetails.courseName && (
+              <div className="course-details" key={index}>
+                <div className="starting-date">
+                <div><span className="head">Starting Date : </span> <span>{val?.StartDate}</span></div>
+                <div><span className="head">Duration : </span> <span>{val?.Duration}</span></div></div>
+                <div><span className="head">Prerequisites : </span> <span>{val?.Prerequisites}</span></div>
+                <div><span className="head">Learnings : </span> <span>{val?.Learnings}</span></div>
+                <div><span className="head">Outcomes : </span> <span>{val?.Outcomes}</span></div>
+              </div>
+            )
+          ))}
+          </div>
         </div>
         <div className="submission-signup-form">
-          <h1 className="submission-title">Register</h1>
+          <h1 className="submission-title">Register Here</h1>
           <form onSubmit={handleOnSubmit} method="POST" className="submission-form__box">
             <div className="submission-form-control">
               <input
@@ -133,42 +141,18 @@ export default function SubmissionForm() {
             </div>
             <div className="submission-form-control">
               <input
-                type="password"
-                name="password"
-                placeholder="Password"
-                value={password}
-                onChange={handleOnChange}
-                required
-              />
-            </div>
-            <div className="submission-form-control">
-              <input
-                type="password"
-                name="confirmPassword"
-                placeholder="Confirm Password"
-                value={confirmPassword}
-                onChange={handleOnChange}
-                required
-              />
-            </div>
-            <div className="submission-form-control">
-              <input
                 type="text"
                 name="domain"
                 placeholder="Domain of Internship"
-                value={domain}
-                onChange={handleOnChange}
+                value={courseDetails.courseName}
+                disabled="true"
                 required
               />
             </div>
             <div className="submission-form-control">
-              {/* <button  className="submission-primary-btn btn">
-                Coming Soon
-              </button> */}
               <button type="submit" className="submission-primary-btn btn">
-                Register
+                Proceed to Pay
               </button>
-              or <a className="submission-createnewact" href="/login"> Login?</a>
             </div>
           </form>
         </div>

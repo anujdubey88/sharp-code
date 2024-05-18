@@ -8,13 +8,28 @@
   object-fit: cover; /* Add border radius for rounded corners */
 }
 
+.team .container{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flip-box{
+  border-radius: 3%;
+}
+
 
 .items{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 3%;
   align-items: center;
   position: relative;
+}
+.commintsoon{
+  padding: 10rem 0;
+  background-color: #fff;
+  border-radius: 3%;
 }
 
 .btn:hover{
@@ -39,7 +54,7 @@
 }
 .team .details {
   padding: 0 1rem;
-  height: 13rem;  
+  height: 11rem;  
   text-align:center;
 }
 .team .details h2 {

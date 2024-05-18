@@ -16,7 +16,7 @@
   
   .submission-course-details {
     width: 50%;
-    height: 80vh;
+    height: 35rem;
     padding: 20px;
     text-align: center;
     background-color: #f4f4f4;
@@ -36,12 +36,9 @@
   }
   
   .submission-course-details h2 {
-    margin-bottom:20vh;
+    margin-bottom:5rem;
     font-size: 20px;
 
-  }
-  .submission-course-details h1 {
-    margin-bottom:20vh;
   }
   
   .submission-course-details p {
@@ -56,7 +53,7 @@
   
   .submission-signup-form {
     width: 50%;
-    height: 80vh;
+    height: 35rem;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -64,9 +61,11 @@
   }
   
   .submission-title {
-    margin-bottom: 10vh;
+    margin-bottom: 5rem;
     font-size: 24px;
     text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
   }
   
   .submission-form__box {
@@ -75,7 +74,7 @@
   }
   
   .submission-form-control {
-    margin:0.5rem;
+    margin-top: 1.3rem;
     text-align: center;
   }
   
@@ -92,7 +91,7 @@
     background-color:#3491B2;
     border: none;
     padding: 1rem;
-    margin: 1rem;
+    margin: 2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -111,6 +110,23 @@
   .submission-createnewact:hover {
     text-decoration: underline;
   }
+
+  .course-details{
+    text-align: justify;
+
+  }
+  .course-details div{
+    margin: 1.5rem 0;
+  }
+  .head{
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .starting-date{
+    display: flex;
+    justify-content: space-between;
+  }
   
   @media screen and (max-width: 800px){
     .submission-login{
@@ -124,7 +140,7 @@
         flex-direction: column;
     }
     .submission-course-details{
-        width: 80vw;
+        width: 90vw;
         height: auto;
         margin: 5vh 0;
     }
