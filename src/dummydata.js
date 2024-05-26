@@ -124,6 +124,7 @@ export const courseOutline=[
     Outcomes:"Proficiency in Flutter and Dart, Strong Understanding of OOP Concepts, UI/UX Design Skills, State Management and Navigation Expertise, Integration of Firebase Services, Preparedness for Android Development Projects",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Data-analysis",
@@ -132,6 +133,7 @@ export const courseOutline=[
     Outcomes:"Data Analysis Proficiency, Advanced SQL and Excel Skills, Effective Data Visualization, Python for Data Analysis, Practical Experience",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Machine-learning",
@@ -140,6 +142,7 @@ export const courseOutline=[
     Outcomes:"Proficiency in Data Handling, Skill in Data Visualization, Understanding of Supervised and Unsupervised Learning, Preparation for Advanced Topics like deep learning and natural language processing",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Data-science",
@@ -148,6 +151,7 @@ export const courseOutline=[
     Outcomes:" Proficiency in Data Cleaning and Manipulation, Strong Data Analysis Skills, Model Building and Tuning, Web Development with Flask, Experience in Model Deployment",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Backend-development",
@@ -156,6 +160,7 @@ export const courseOutline=[
     Outcomes:"Design and Implement Backend Systems, Manage Web Servers, Use Version Control Systems, Ensure Web Security, Deploy Applications, Work on Real-world Projects, Troubleshoot and Optimize",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Fullstack-development",
@@ -164,6 +169,7 @@ export const courseOutline=[
     Outcomes:" Build full Stack Applications, Create Dynamic Frontend, Development Robust Backends, Manage Database, Integrate Frontend and Backend, Work on Real-World Projects, Troubleshoot and Optimize",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Language Fundamentals",
@@ -172,6 +178,7 @@ export const courseOutline=[
     Outcomes:"strong understanding of the basic syntax and structure of a programming language, A strong logic building using conditional statements and loops, Grasp fundamental object-oriented programming concepts and create simple classes and objects, Perform basic file handling operations for reading and writing data.",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Data Structure and Algorithms",
@@ -180,6 +187,7 @@ export const courseOutline=[
     Outcomes:"Have a solid understanding of the basics of data structures and algorithms, A strong logic building, creating a firm base for any competitive coding test, Use advanced data structures like hash tables and heaps.",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"999",
   },
   {
     name:"Frontend-development",
@@ -188,5 +196,6 @@ export const courseOutline=[
     Outcomes:"Technical Proficiency, Project Experience, Job Readiness, Problem-solving and Debugging Skills, Continued Learning",
     Duration:"4 Weeks",
     StartDate:"5 June",
+    price:"1",
   },
 ]

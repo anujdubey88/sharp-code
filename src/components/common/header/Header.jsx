@@ -77,7 +77,7 @@ const Header = () => {
               <Link to="/abouthome">About</Link>
             </li>
             <li>
-              <Link to="/team">Internship</Link>
+              <Link to="/team">Curriculum</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
@@ -100,9 +100,9 @@ const Header = () => {
           </ul>
           <div className="start">
             {isLoggedIn ? (
-              <Link onClick={handleLogout}>Logout</Link>
+              <li><Link onClick={handleLogout}>Logout</Link></li>
             ) : (
-              <Link to="/register">Apply For Internship</Link>
+              <li><Link to="/register">Apply For Internship</Link></li>
             )}
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
