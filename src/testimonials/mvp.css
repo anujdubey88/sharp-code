@@ -1,0 +1,88 @@
+
+  .testinomial__main__container {
+      width: 90%;
+      overflow: hidden;
+      margin:4rem;
+  }
+  
+  
+  .testi_card_container {
+      max-width: 350px;
+      min-width: 350px;
+      min-height: 400px;
+      max-height: 400px;
+      border: 5px solid #3491B2;
+      border-radius: 1rem;
+      overflow: hidden;
+      margin: 0.5rem;
+  }
+  
+  .upper_card {
+      background-color: #3491B2;
+      height: 100px;
+      position: relative;
+  }
+  
+  .testi_img {
+      width: 40%;
+      border: 5px solid #3491B2;
+      border-radius: 50%;
+      background-color: gray;
+      position: absolute;
+      left: 90px;
+      bottom: -50px;
+      overflow: hidden;
+  }
+  
+  .card1:hover {
+      scale: 1.1;
+  }
+  
+  .testi_img>img {
+      width: 100%;
+  }
+  
+  .testi_name {
+      display: flex;
+      width: 100%;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .lower_card {
+      padding: 1rem;
+      padding-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+  }
+  
+  .name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: black;
+  }
+  
+  .likedin {
+      width: 10%;
+  }
+  
+  .testi_degination {
+      color: gray;
+      color: #3491B2;
+      font-size: 0.9rem;
+  }
+  
+  .likedin>a>img {
+      width: 100%;
+  }
+  
+  .letter_detail {
+      padding-top: 0.8rem;
+      font-size: 0.7rem;
+      text-align: justify;
+  }
+  

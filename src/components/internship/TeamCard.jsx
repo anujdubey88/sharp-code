@@ -19,7 +19,7 @@ const TeamCard = () => {
             <div className="buttonprice">
               <span className="price">{val.price}</span>
               <Link to={`/registration?courseName=${val.name}`}>
-                <button>Apply</button>
+                <button><li>Apply</li></button>
               </Link>
             </div>
           </div>

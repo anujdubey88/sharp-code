@@ -35,71 +35,71 @@ export default function SubmissionForm() {
   };
 
   const handlePayment = async (e) => {
-    // e.preventDefault(); // Prevent default form submission behavior
-    // try {
-    //   const response = await fetch("http://localhost:4000/api/v2/order/payment",{
-    //     method:"POST",
-    //     body: JSON.stringify({
-    //       amount,
-    //       currency,
-    //       receipt: receiptId,
-    //     }),
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //   });
-    //   // console.log(response);
-    //   const order= response.data
-    //   console.log(response);
-    //   const options = {
-    //     "key": "rzp_test_sSPLa44klkrggI", // Enter the Key ID generated from the Dashboard
-    //     amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-    //     currency,
-    //     "name": "SharCode",
-    //     "description": "welcome to sharpcode",
-    //     "image": process.env.PUBLIC_URL + "/images/logo.png",
-    //     // "order_id": order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-    //     "handler": async function (response){
-    //       const body ={
-    //         ...response,
-    //       }
-    //       const validateRes=await fetch("http://localhost:4000/api/v2/order/validate",{
-    //         method:"POST",
-    //         body:JSON.stringify(body),
-    //         headers:{
-    //           "Content-Type":"application/json",
-    //         }
-    //       });
-    //       const jsonres=await validateRes.json();
-    //       console.log(jsonres);
-    //     },
-    //     "prefill": {
-    //         "name": "SharpCode",
-    //         "email": "team@sharpcode.in",
-    //         "contact": "1234567890"
-    //     },
-    //     "notes": {
-    //         "address": "Razorpay Corporate Office"
-    //     },
-    //     "theme": {
-    //         "color": "#3399cc"
-    //     }
-    // };
-    // const rzp1 = new window.Razorpay(options);
-    // rzp1.on('payment.failed', function (response){
-    //         alert(response.error.code);
-    //         alert(response.error.description);
-    //         alert(response.error.source);
-    //         alert(response.error.step);
-    //         alert(response.error.reason);
-    //         alert(response.error.metadata.order_id);
-    //         alert(response.error.metadata.payment_id);
-    // });
-    // rzp1.open();
-    // e.preventDefault();
-    // } catch (err) {
-    //   toast.error("There is some error, please try again");
-    // }
+    e.preventDefault(); // Prevent default form submission behavior
+    try {
+      const response = await fetch("http://localhost:4000/api/v2/order/payment",{
+        method:"POST",
+        body: JSON.stringify({
+          amount,
+          currency,
+          receipt: receiptId,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      // console.log(response);
+      const order= response.data
+      console.log(response);
+      const options = {
+        "key": "rzp_test_sSPLa44klkrggI", // Enter the Key ID generated from the Dashboard
+        amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        currency,
+        "name": "SharCode",
+        "description": "welcome to sharpcode",
+        "image": process.env.PUBLIC_URL + "/images/logo.png",
+        // "order_id": order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+        "handler": async function (response){
+          const body ={
+            ...response,
+          }
+          const validateRes=await fetch("http://localhost:4000/api/v2/order/validate",{
+            method:"POST",
+            body:JSON.stringify(body),
+            headers:{
+              "Content-Type":"application/json",
+            }
+          });
+          const jsonres=await validateRes.json();
+          console.log(jsonres);
+        },
+        "prefill": {
+            "name": "SharpCode",
+            "email": "team@sharpcode.in",
+            "contact": "1234567890"
+        },
+        "notes": {
+            "address": "Razorpay Corporate Office"
+        },
+        "theme": {
+            "color": "#3399cc"
+        }
+    };
+    const rzp1 = new window.Razorpay(options);
+    rzp1.on('payment.failed', function (response){
+            alert(response.error.code);
+            alert(response.error.description);
+            alert(response.error.source);
+            alert(response.error.step);
+            alert(response.error.reason);
+            alert(response.error.metadata.order_id);
+            alert(response.error.metadata.payment_id);
+    });
+    rzp1.open();
+    e.preventDefault();
+    } catch (err) {
+      toast.error("There is some error, please try again");
+    }
   };
 
   const location = useLocation();

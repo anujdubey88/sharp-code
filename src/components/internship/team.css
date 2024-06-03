@@ -1,6 +1,9 @@
 .team .items {
   transition: 0.5s;
 }
+.team{
+  margin: 2rem;
+}
 
 .team .img img {
   height: 100%; /* Adjust image height to fill its container */
@@ -17,10 +20,10 @@
   border-radius: 3%;
 }
 
-
 .items{
   display: flex;
-  width: 20rem;
+  max-width: 350px;
+  min-width: 350px;
   flex-direction: column;
   justify-content: center;
   border-radius: 3%;
@@ -81,14 +84,6 @@
   }
   
 }
-/* .price{
-  position: absolute;
-  bottom: 1rem;
-  font-size: 1.5rem;
-  right: 1.5rem;
-  font-weight: 700;
-  color: black;
-} */
 .team .items:hover p {
   color: #fff;
 }
@@ -114,6 +109,9 @@
   color: #fff;
   margin-bottom: 2rem;
 }
+.buttonprice button:hover{
+  transform: scale(1.1);
+} 
 
 
 
