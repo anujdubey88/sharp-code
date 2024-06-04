@@ -17,7 +17,7 @@ footer {
 }
 
 footer .container {
-  display: grid;
+  display: flex;
   padding-top: 1.5rem;
   /* grid-template-columns: 3fr 2fr 2fr 4fr 3fr; */
   justify-content: space-between;
@@ -52,12 +52,13 @@ footer h3 {
   font-weight: 500;
 }
 
-footer ul a li,footer ul li {
+footer span a li,footer span li {
   margin-bottom: 20px;
   color: white;
 }
-footer .link{
-  margin-left: 5vw;
+
+footer span a li:hover, span li :hover{
+  color: #3491B2;
 }
 
 footer .link li::before {
@@ -94,7 +95,7 @@ footer h4 {
   margin-bottom: 2rem;
 }
 
-footer .last ul li {
+footer .last span li {
   display: flex;
   margin-bottom: 50px;
 }

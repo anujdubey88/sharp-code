@@ -10,10 +10,10 @@
   width: 100%; /* Ensure the image fills its container */
   object-fit: cover; /* Add border radius for rounded corners */
 }
-
-.team .container{
-  justify-content: center;
+.team{
   align-items: center;
+}
+.team .container{
   text-align: center;
 }
 .flip-box{
