@@ -45,7 +45,8 @@ const Footer = () => {
           </div>
           <div className='box link'>
             <h3>Contact Us</h3>
-            <span> <a href="mailto:team@sharpcode.in" ><li  className='fa fa-envelope'>  team@sharpcode.in</li></a></span>
+            <span><a href="mailto:team@sharpcode.in"><li className='fa fa-envelope'>team@sharpcode.in</li></a></span>
+            <span><a href="/contact"><li className="fa fa-home">Adress 44,sanganer,jaipur,rajasthan-302029</li></a></span>
           </div>
         </div>
       </footer>
