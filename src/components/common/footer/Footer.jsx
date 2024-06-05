@@ -14,9 +14,9 @@ const Footer = () => {
             <h1>SHARP-CODE</h1>
             <span>THINK SHARP CODE SMART</span>
             <p className="footp">Never let University interfere with your education</p>
-
+            <div>
             <a href="https://www.linkedin.com/company/sharpcode01/" target="_blank" className='fab fa-linkedin icon'></a>
-            <a href="https://www.instagram.com/sharp.code?igsh=cHVoeWFrOXFsbTl5" target="_blank" className='fab fa-instagram icon'></a>
+            <a href="https://www.instagram.com/sharp.code?igsh=cHVoeWFrOXFsbTl5" target="_blank" className='fab fa-instagram icon'></a></div>
             {/* <a className='fas fa-times-circle icon'></a> */}
           </div>
 

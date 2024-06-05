@@ -46,7 +46,10 @@ footer .logop .icon {
 footer .logop .icon:hover{
   background-color: black;
 }
-
+.footp div a{
+  display: flex;
+  flex-direction: row;
+}
 footer h3 {
   /* margin-bottom: 40px; */
   font-weight: 500;
