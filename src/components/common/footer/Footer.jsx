@@ -9,13 +9,14 @@ const Footer = () => {
   return (
     <div className="footer__container">
       <footer>
-        <div className='container '>
+        <div className='container grid'>
           <div className='box logop'>
             <h1>SHARP-CODE</h1>
             <span>THINK SHARP CODE SMART</span>
             <p className="footp">Never let University interfere with your education</p>
             <div>
             <a href="https://www.linkedin.com/company/sharpcode01/" target="_blank" className='fab fa-linkedin icon'></a>
+            <i className="fa-brands fa-x-twitter"></i>
             <a href="https://www.instagram.com/sharp.code?igsh=cHVoeWFrOXFsbTl5" target="_blank" className='fab fa-instagram icon'></a></div>
             {/* <a className='fas fa-times-circle icon'></a> */}
           </div>
@@ -43,11 +44,11 @@ const Footer = () => {
             <span><a href="/codeofconduct"><li>Code of Conduct</li></a></span>
             
           </div>
-          <div className='box link'>
+          {/* <div className='box link'>
             <h3>Contact Us</h3>
             <span><a href="mailto:team@sharpcode.in"><li className='fa fa-envelope'>team@sharpcode.in</li></a></span>
             <span><a href="/contact"><li className="fa fa-home">Address 44-sanganer Jaipur, Rajasthan-302029</li></a></span>
-          </div>
+          </div> */}
         </div>
       </footer>
       <div className='legal'>
