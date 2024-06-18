@@ -95,6 +95,14 @@
   color: #fff;
 }
 
+.morecourse{
+  text-align: center;
+  background-color: #fff;
+  margin: 0 4rem ;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #8411e3;
+}
 
 .price h6 i{
   color: #000;

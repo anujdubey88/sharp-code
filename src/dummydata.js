@@ -35,37 +35,37 @@ export const homeAbout = [
 export const team = [
   {
     cover: "./images/logo/front-end.jpg",
-    name: "Frontend-development",
+    name: "Frontend Development",
     details: "Unlock your potential with our comprehensive frontend development training and internship. Master HTML, CSS, JavaScript, React through training and quizzes. Build a portfolio with a hands-on project, ready to showcase on your resume and social media. Start your journey to becoming a skilled developer today!",
     price:"₹999",
   },
   {
     cover: "./images/logo/data-analysis.jpg",
-    name: "Data-analysis",
+    name: "Data Analytics",
     price:"₹999",
     details: "Embark on a journey in data analysis with our training and internship. Learn SQL, Tableau, Power BI for data visualization. Tackle real-world data challenges through hands-on projects. Enhance your resume, online presence, and elevate your career prospects today!",
   },
   {
     cover: "./images/logo/machine-learning.jpg",
-    name: "Machine-learning",
+    name: "Machine Learning",
     price:"₹999",
     details: "Attain expertise in Machine Learning through our comprehensive 4-week internship, unlocking exciting career prospects. Lay a robust foundation with hands-on experience in web application development and deployment in a nurturing environment.",
   },
   {
     cover: "./images/logo/stuani.jpg",
-    name: "Fullstack-development",
+    name: "Fullstack Development",
     price:"₹999",
     details: "Unleash your potential in full stack development with our immersive training cum internship. Choose between MERN or MEAN stack and progress through levels with projects and quizzes. Craft a standout full stack project for your resume and social media. Begin your journey to mastering development today!",
   },
   {
     cover: "./images/logo/android.jpg",
-    name: "Android-development",
+    name: "Android Development",
     price:"₹999",
     details: "Unlock your potential in Android development with our training and internship. Learn Flutter, Dart, and Android Studio. Showcase your skills with a polished Android project, perfect for your resume. Start your journey to becoming a proficient Android developer today!",
   },
   {
     cover: "./images/logo/back-end.jpg",
-    name: "Backend-development",
+    name: "Backend Development",
     price:"₹999",
     details: "Unlock your potential in backend development with our training and internship. Master Python, Node.js, PHP, Express, Django through projects and quizzes. Build a standout backend project for your resume. Start your journey to becoming a skilled backend developer today!",
   },
@@ -77,7 +77,7 @@ export const team = [
   },
   {
     cover: "./images/logo/data-science.jpg",
-    name: "Data-science",
+    name: "Data Science",
     price:"₹999",
     details: "Immerse yourself in distinctive remote data science internships, gaining invaluable experience within the virtual workforce. Explore highly sought-after niches, including competitive and favored data analysis opportunities.",
   },
@@ -118,7 +118,7 @@ export const faq = [
 
 export const courseOutline=[
   {
-    name:"Android-development",
+    name:"Android Development",
     Prerequisites:"Basic programming knowledge, Familiarity with OOPs, Experience with Git",
     Learnings:"Introduction to Flutter and Dart, Object-Oriented Programming in Dart, Common Widgets and Cards Knowledge, UI/UX Designing, State Management and Navigation, Firebase CLI and SDK Setup",
     Outcomes:"Proficiency in Flutter and Dart, Strong Understanding of OOP Concepts, UI/UX Design Skills, State Management and Navigation Expertise, Integration of Firebase Services, Preparedness for Android Development Projects",
@@ -127,7 +127,7 @@ export const courseOutline=[
     price:"999",
   },
   {
-    name:"Data-analysis",
+    name:"Data Analytics",
     Prerequisites:"Basic programming knowledge, Familiarity with OOPs, Experience with Git",
     Learnings:"Introduction to Data Analysis, SQL and Excel for Data Analysis, Data Visualization with Power BI and Tableau, Optional Python for Data Analysis, Real-world Data Analysis Projects",
     Outcomes:"Data Analysis Proficiency, Advanced SQL and Excel Skills, Effective Data Visualization, Python for Data Analysis, Practical Experience",
@@ -136,7 +136,7 @@ export const courseOutline=[
     price:"999",
   },
   {
-    name:"Machine-learning",
+    name:"Machine Learning",
     Prerequisites:"Basic Python Programming, Understanding of algebra, calculus, and statistics, Basic knowledge of libraries like NumPy and Pandas.",
     Learnings:" numpy, pandas, matplotlib, seaborn scikit learn, Supervised learning algorithms, Unsupervised learning algorithms",
     Outcomes:"Proficiency in Data Handling, Skill in Data Visualization, Understanding of Supervised and Unsupervised Learning, Preparation for Advanced Topics like deep learning and natural language processing",
@@ -145,7 +145,7 @@ export const courseOutline=[
     price:"999",
   },
   {
-    name:"Data-science",
+    name:"Data Science",
     Prerequisites:"Basic understanding of Python and libraries - Pandas, Numpy, Matplotlib, Scikit-Learn",
     Learnings:"Data Cleaning, Data manipulation, Data analysis, Exploratory data analysis(univariate, bivariate , multivariate), Model Building, Feature extraction, Hyperparameter tuning, Flask, Model Deployment, AWS EC2",
     Outcomes:" Proficiency in Data Cleaning and Manipulation, Strong Data Analysis Skills, Model Building and Tuning, Web Development with Flask, Experience in Model Deployment",
@@ -154,7 +154,7 @@ export const courseOutline=[
     price:"999",
   },
   {
-    name:"Backend-development",
+    name:"Backend Development",
     Prerequisites:"Fundamental Web Development, Basic Programming Knowledge, Database Basics",
     Learnings:" Introduction and Web Servers, Programming Languages and Frameworks,Version Control and Web Security, Containerization, Testing, and Deployment Real-world Projects",
     Outcomes:"Design and Implement Backend Systems, Manage Web Servers, Use Version Control Systems, Ensure Web Security, Deploy Applications, Work on Real-world Projects, Troubleshoot and Optimize",
@@ -163,7 +163,7 @@ export const courseOutline=[
     price:"999",
   },
   {
-    name:"Fullstack-development",
+    name:"Fullstack Development",
     Prerequisites:"Programming Knowledge, Basic Web Development, Computing Essentials",
     Learnings:" Intro to concepts, Frontend Development, Backend development, Database Management, Real-world Projects",
     Outcomes:" Build full Stack Applications, Create Dynamic Frontend, Development Robust Backends, Manage Database, Integrate Frontend and Backend, Work on Real-World Projects, Troubleshoot and Optimize",
@@ -190,7 +190,7 @@ export const courseOutline=[
     price:"999",
   },
   {
-    name:"Frontend-development",
+    name:"Frontend Development",
     Prerequisites:"Basic Computer Skills, Understanding of the Internet and Browsers, Basic Programming Knowledge",
     Learnings:"Basics of Frontend Development, HTML, CSS, Core & Advanced Javascript, Frondend frameworks",
     Outcomes:"Technical Proficiency, Project Experience, Job Readiness, Problem-solving and Debugging Skills, Continued Learning",

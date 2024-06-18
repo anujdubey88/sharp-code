@@ -25,9 +25,6 @@ const TeamCard = () => {
           </div>
         </div>
       ))}
-      <div className="items commintsoon shadow flip-box-inner">
-        <h1>More Courses Coming Soon</h1>
-      </div>
     </>
   );
 };
