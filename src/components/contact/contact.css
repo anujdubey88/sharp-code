@@ -43,7 +43,7 @@
   margin-bottom: 4rem;
 }
 
-.contact-box {
+.contact-box div {
   background: #f9f9f9;
   display: flex;
   gap: 20px;

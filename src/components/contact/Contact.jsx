@@ -59,8 +59,11 @@ const Contact = () => {
           <div className="contact-form">
             <div className="contact-details">
               <div className="contact-box">
-                <span><h4>EMAIL :</h4></span>
-                <span><p>team@sharpcode.in</p></span>
+                <div><span><h4>EMAIL :</h4></span>
+                <span><p>team@sharpcode.in</p></span></div>
+                <div>
+                <span><h4>Address :</h4></span>
+                <span><p> 44-Sanganer Jaipur, Rajasthan-302029</p></span></div>
               </div>
             </div>
             <h3>Send your message</h3>
